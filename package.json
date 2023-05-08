@@ -1,17 +1,13 @@
 {
-  "name": "host-api",
+  "name": "my-nodejs-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "My Node.js app",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
-    "build": "npm"
+    "start": "node app.js",
+    "build": "echo 'Build complete.'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "nodemon": "^2.0.22"
+    "express": "^4.17.1"
   }
 }
